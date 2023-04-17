@@ -1,0 +1,36 @@
+.main03 {
+    background-color: #f4ede4;
+    padding-top: 40px;
+
+    .main03__tarjeta {
+        background-color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        @include flexWrap(row, flex-start, center, center, 10px);
+
+        .main03__tarjeta__img {
+            padding-top: 10px;
+            width: 95%;
+        }
+    }
+
+    .main03__botones {
+        padding-bottom: 20px;
+        @include flexWrap(row, flex-center, center, center, 20px);
+    
+        .main03__boton {
+            background-color: rgb(202, 202, 202);
+            color: transparent;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border-color: transparent;
+        }
+
+        .seleccion {
+            background-color: black;
+        }
+    }
+        
+}

@@ -1,0 +1,23 @@
+.main04 {
+    background-color: #541554;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    clip-path: ellipse(90% 100% at center top);
+
+    p {
+        font-size: 30px;
+        padding-bottom: 20px;
+
+    }
+
+    .main04__botones__gratis {
+        @include buttonBig(#541554, white);
+    }
+
+    .main04__botones__ventas {
+        @include buttonBig(white, #541554);
+        border-color: white;
+    }
+}

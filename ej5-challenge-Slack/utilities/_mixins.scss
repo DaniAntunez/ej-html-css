@@ -1,0 +1,17 @@
+@mixin flexWrap($direction, $aligncontent, $justifycontent, $alignitems, $gap) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: $direction; //row, column
+    align-content: $aligncontent; //center, fex-start, flex-end, space-around, space-between, strech
+    justify-content: $justifycontent; //center, flex-start, flex-end, space-between, space-around, space-evenly
+    align-items: $alignitems; //center, flex-strat, flex-end, strech, baselie
+    gap: $gap;
+}
+
+@mixin buttonBig($colorfont, $colorback) {
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    color: $colorfont;
+    background-color: $colorback;
+}
